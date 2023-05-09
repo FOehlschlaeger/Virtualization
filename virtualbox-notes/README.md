@@ -25,11 +25,12 @@ In VirtualBox:
 - Go to Settings | Additional Pakets 
   - Add the `Oracle VM Virtualbox Etension Pack`
 - Start the VM (should start not in fullscreen mode, even when the VM window is in fullscreen)
+- Not in fullscreen mode, activate the `Guest Additions` via Devices
 
 In the VM:
-- Install the `Guest Additions`
-- Open the `Guest Additions` drive and execute ``
-- Restart the VM and it should start in fullscreen mode
+- After activating/installing the `Guest Additions` a drive called `VBox_GAs_x.y` should be mounted
+- Open the `Guest Additions` drive and execute `autorun.sh`
+- Restart the VM, activate in VirtualBox the fullscreen mode and it should start in fullscreen mode
 
 ---
 ## Kali Linux
